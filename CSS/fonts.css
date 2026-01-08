@@ -1,0 +1,47 @@
+/* Google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  background-color: azure;
+  color: rgb(84, 72, 72);
+  font-family: 'Dm Sans';
+  margin: 0;
+  line-height: 140%;
+  font-size: 20px;
+
+  /* when we use 100vw for elements (like we do for hero images)
+       that is including the vertical scroll-bar which means
+       the page doesn't fit horisontally and gets a horizontal scrollbar...
+       we fix this by hiding the horizontal overflow -
+       (this hides around 17px of the image but that's mostly undetectable)
+       - no more horizontal scrollbar!
+    */
+    
+  overflow-x: hidden;
+
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Fraunces';
+  margin-bottom: 0.5rem ;
+  line-height: 100px;
+}
+
+.logo {
+  font-family: 'Delius';
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+p {
+  margin-top:0 ;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}

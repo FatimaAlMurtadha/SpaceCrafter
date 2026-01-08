@@ -1,0 +1,61 @@
+footer {
+  background-color: rgb(2, 61, 14);
+  padding: 40px 80px;
+  color: aliceblue;
+  text-align: center;
+
+  @media screen and (min-width:650px) {
+      
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      justify-content: space-between;
+    }
+
+  section {
+    &:not(:first-child) {
+        @media screen and (max-width:649.98px) {
+          h3 {
+            margin-top: 30px;
+          }
+        }
+      }
+    
+      h3 {
+        margin: 0;
+      }
+
+    p {
+        margin: 0;
+    
+        &.space-before {
+          margin-top: 10px;
+        }
+      }
+    
+      a {
+        color: #fff;
+      &:hover{
+          color: aqua;
+        }
+      }
+
+      /* hide the last section/column if less than 900 px wide */
+      &:last-child {
+        @media screen and (max-width:899px) {
+          display: none;
+        }
+      }
+  }
+}
+
+/* Sticky footer logic */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+

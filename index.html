@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>SpaceCrafter</title>
+  </head>
+  <!-- 
+  This is the start of the web-site
+  -->
+
+  <body>
+    <header>
+      <div class="logo">SpaceCrafter</div>
+       <!-- Checkbox hack for CSS-only hamburger menu -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle">☰</label>
+      <nav>
+        <a href="#start">Start</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Distinations</a>
+        <a href="#review">More</a>
+      </nav>
+    </header>
+    <main>
+       <!--
+      Several articles but only show one at the time
+      (no page reload using css + hash links)
+    -->
+      <article id="start">
+        <img
+          class="hero"
+          src="images/guillermo-ferla-Oze6U2m1oYU-unsplash.jpg"
+          alt="black hole galaxy illustration"
+        />
+        <h1>Galactic Journeys: Curated Space Adventures!</h1>
+        <p class="lorem">
+          Step beyond ordinary travel and into the cosmos. With Galactic
+          Journeys, you don’t just visit destinations—you explore entire worlds.
+          Build your own custom space trip by combining planets, galaxies, and
+          unique activities into one seamless experience. Whether you’re drawn
+          to quiet nebulae, bustling space stations, or ancient alien ruins,
+          your journey is entirely your own.
+        </p>
+      </article>
+      <article id="about">
+        <img class="hero" src="images/download (5).jpeg" alt="Moon" />
+        <h1>About us</h1>
+        <p>At Galactic Journeys: </p>
+        <ul>
+          <li class="lorem1"></li>
+          <li class="lorem2"></li>
+          <li class="lorem3"></li>
+        </ul>
+        <p class="lorem4"></p>
+      </article>
+      <article id="products">
+        <img class="hero" src="images/W x L.jpeg" alt="sun flower" />
+        <h1>Our Distinations</h1>
+        <p>Chose your own distination: </p>
+        <ul>
+          <li class="lorem5"></li>
+          <li class="lorem6"></li>
+          <li class="lorem7"></li>
+          <li class="lorem8"></li>
+          <li class="lorem9"></li>
+        </ul>
+      </article>
+      <article id="review">
+        <img class="hero" src="images/vmpxr.jpeg" alt="universe" />
+        <h1>Why to choose us:</h1>
+        <p class="lorem10"></p>
+      </article>
+    </main>
+    <footer>
+      <section>
+        <h3>Contact us</h3>
+        <p><b>E-mail</b></p>
+        <p><a href="mailto:info@spacecrafter.com">info@spacecrafter.com</a></p>
+        <p class="space-before"><b>Phone</b></p>
+        <p>+46 79 123 45 67</p>
+      </section>
+      <section>
+        <h3>Address</h3>
+        <p>231 Main Street</p>
+        <p>Smalltown</p>
+        <p>Skåne</p>
+        <p>Sweden</p>
+      </section>
+      <section>
+        <h3>Content</h3>
+        <p class="space-before">
+          <a href="#start">Start</a>
+        </p>
+        <p class="space-before">
+          <a href="#about-us">About us</a>
+        </p>
+        <p class="space-before">
+          <a href="#products">Destinations</a>
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>

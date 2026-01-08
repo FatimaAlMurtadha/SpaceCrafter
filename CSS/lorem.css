@@ -1,0 +1,44 @@
+/*
+  Placeholder Lorem Ipsum
+  usage example: <p class="lorem1"><p class="lorem5">, <li class="lorem"> etc...
+*/
+
+.lorem1::before {
+  content: "we believe exploration is more than movement through space — it is a celebration of curiosity, imagination, and the endless possibilities of the universe. Our mission is to make cosmic travel accessible, meaningful, and deeply personal.";
+}
+
+.lorem2::before {
+  content: "We curate extraordinary destinations across planets, moons, nebulae, and distant galaxies, allowing travelers to design their own journeys through the stars. Every route, every activity, and every world is crafted to inspire wonder and spark discovery.";
+}
+
+.lorem3::before {
+  content: "Whether you seek adventure, knowledge, or quiet moments among the constellations, we are here to guide you through a universe filled with stories waiting to be explored. Your journey begins wherever your imagination dares to go.";
+}
+
+.lorem4::before {
+  content: "Behind the fiction lies a real technical foundation: structured data, reusable components, and a dynamic system that mirrors how large applications handle complex relationships. Our goal is to explore both creativity and engineering in one unified experience.";
+}
+
+.lorem5::before {
+  content: "Aurora‑9: The Shimmering Ice World";
+}
+
+.lorem6::before {
+  content: "Virelia Prime: The Bioluminescent Forest Moon";
+}
+
+.lorem7::before {
+  content: "The Helix Expanse: A Living Nebula";
+}
+
+.lorem8::before {
+  content: "Orion’s Gate: The Intergalactic Crossroads";
+}
+
+.lorem9::before {
+  content: "Solaris Rift: The Twin‑Sun Desert Planet";
+}
+
+.lorem10::before {
+  content: "customized with activities that match your style—calm, adventurous, scientific,  or social. Mix and match activities across different destinations to create a truly unique itinerary.";
+}
