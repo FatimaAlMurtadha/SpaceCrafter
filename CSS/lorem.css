@@ -20,25 +20,53 @@
 }
 
 .lorem5::before {
-  content: "Aurora‑9: The Shimmering Ice World";
+  content: "The Shimmering Ice World.";
 }
 
 .lorem6::before {
-  content: "Virelia Prime: The Bioluminescent Forest Moon";
+  content: "The Bioluminescent Forest Moon.";
 }
 
 .lorem7::before {
-  content: "The Helix Expanse: A Living Nebula";
+  content: "A Living Nebula.";
 }
 
 .lorem8::before {
-  content: "Orion’s Gate: The Intergalactic Crossroads";
+  content: "The Intergalactic Crossroads.";
 }
 
 .lorem9::before {
-  content: "Solaris Rift: The Twin‑Sun Desert Planet";
+  content: "The Twin‑Sun Desert Planet.";
 }
 
 .lorem10::before {
   content: "customized with activities that match your style—calm, adventurous, scientific,  or social. Mix and match activities across different destinations to create a truly unique itinerary.";
+}
+
+.lorem11::before {
+  content: "A frozen planet wrapped in endless curtains of glowing auroras. Its crystal plains reflect the sky like a mirror, and its low gravity makes every step feel like a gentle glide. Perfect for travelers seeking silence, beauty, and breathtaking cosmic views.";
+}
+
+.lorem12::before {
+  content: "lush moon covered in floating forests and glowing rivers. Every plant emits soft light, and the air shimmers with drifting pollen that sparkles like stars. Ideal for explorers who love nature in its most magical form.";
+}
+
+.lorem13::before {
+  content: "A swirling nebula filled with drifting research stations, abandoned pods, and rare cosmic storms. Colors shift across the sky like living paint. Scientists, photographers, and dreamers come here to witness the universe in motion.";
+}
+
+.lorem14::before {
+  content: "A massive cluster of galaxies connected by ancient wormhole routes. Cultures, species, and technologies from across the cosmos meet here. Perfect for long, multi‑stop journeys full of discovery and diversity.";
+}
+
+.lorem15::before {
+  content: "A golden desert world illuminated by two suns. Its dunes sing when the wind passes over them, and its nights reveal a sky filled with thousands of visible galaxies. Adventurers come here for heat, challenge, and unforgettable sunsets.";
+}
+
+.lorem16::before {
+  content: "";
+}
+
+.lorem17::before {
+  content: "";
 }

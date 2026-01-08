@@ -13,18 +13,18 @@
   <body>
     <header>
       <div class="logo">SpaceCrafter</div>
-       <!-- Checkbox hack for CSS-only hamburger menu -->
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle">☰</label>
+      <!-- Checkbox hack for CSS-only hamburger menu -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle">☰</label>
       <nav>
         <a href="#start">Start</a>
         <a href="#about">About Us</a>
-        <a href="#products">Distinations</a>
-        <a href="#review">More</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#more">More</a>
       </nav>
     </header>
     <main>
-       <!--
+      <!--
       Several articles but only show one at the time
       (no page reload using css + hash links)
     -->
@@ -47,7 +47,7 @@
       <article id="about">
         <img class="hero" src="images/download (5).jpeg" alt="Moon" />
         <h1>About us</h1>
-        <p>At Galactic Journeys: </p>
+        <p>At Galactic Journeys:</p>
         <ul>
           <li class="lorem1"></li>
           <li class="lorem2"></li>
@@ -55,22 +55,65 @@
         </ul>
         <p class="lorem4"></p>
       </article>
-      <article id="products">
+      <article id="destinations">
         <img class="hero" src="images/W x L.jpeg" alt="sun flower" />
-        <h1>Our Distinations</h1>
-        <p>Chose your own distination: </p>
+        <h1>Our Destinations</h1>
+        <p>Choose your own destinations:</p>
         <ul>
-          <li class="lorem5"></li>
-          <li class="lorem6"></li>
-          <li class="lorem7"></li>
-          <li class="lorem8"></li>
-          <li class="lorem9"></li>
+          <li><a href="#aurora">Aurora-9: </a> <b class="lorem5"></b></li>
+          <li>
+            <a href="#vireliaPrime">Virelia Prime: </a> <b class="lorem6"></b>
+          </li>
+          <li>
+            <a href="#helixExpanse">The Helix Expanse: </a>
+            <b class="lorem7"></b>
+          </li>
+          <li>
+            <a href="#OrionGate">Orion’s Gate: </a> <b class="lorem8"></b>
+          </li>
+          <li>
+            <a href="#solarisRift">Solaris Rift: </a> <b class="lorem9"></b>
+          </li>
         </ul>
       </article>
-      <article id="review">
+
+      <article id="aurora">
+        <img class="hero" src="images/johny-goerend-x3WQMj5QkEE-unsplash.jpg" alt="An amazing night on the bridge to Reine on Lofoten islands">
+          <h1>About Aurora-9</h1>
+          <p class="lorem11"></p>
+      </article>
+        <article id="vireliaPrime">
+          <img class="hero" src="images/parker-hilton-vFzZ1_LPttk-unsplash.jpg" alt="A moon over a forest">
+          <h1>Virelia Prime</h1>
+          <p class="lorem12"></p>
+
+        </article>
+        <article id="helixExpanse">
+          <img class="hero" src="images/nasa-hubble-space-telescope-DG3dHwHFYtQ-unsplash.jpg" alt="A univers look">
+          <h1>Helix Expanse</h1>
+          <p class="lorem13"></p>
+        </article>
+        <article id="OrionGate">
+          <img class="hero" src="images/nasa-hubble-space-telescope-AiiVVzYuRyk-unsplash.jpg" alt="">
+          <h1>Orion Gate</h1>
+          <p class="lorem14"></p>
+        </article>
+
+        <article id="solarisRift">
+          <img class="hero" src="images/javier-miranda-kBU5APay4T0-unsplash.jpg" alt="A planet with two suns">
+          <h1>Solaris Rift</h1>
+          <p class="lorem15"></p>
+        </article>
+      
+      <article id="more">
         <img class="hero" src="images/vmpxr.jpeg" alt="universe" />
         <h1>Why to choose us:</h1>
         <p class="lorem10"></p>
+        <a href="#activities">Activities</a>
+      </article>
+      <article id="activities">
+        <img src="images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg" alt="">
+
       </article>
     </main>
     <footer>
@@ -97,7 +140,7 @@
           <a href="#about-us">About us</a>
         </p>
         <p class="space-before">
-          <a href="#products">Destinations</a>
+          <a href="#destinations">Destinations</a>
         </p>
       </section>
     </footer>
