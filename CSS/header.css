@@ -10,7 +10,7 @@ header {
   position: fixed;
   width: 100%;
   
-  background-color: rgb(2, 61, 14);
+  background-color: var(--header-footer-background);
   padding: 20px;
 
   nav {

@@ -1,5 +1,5 @@
 footer {
-  background-color: rgb(2, 61, 14);
+  background-color: var(--header-footer-background);
   padding: 40px 80px;
   color: aliceblue;
   text-align: center;
