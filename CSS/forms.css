@@ -19,11 +19,33 @@ input:not([type="checkbox"], [type="radio"]), textarea {
 
 
 
-
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
 textarea {
   height: 100px;
+  select{
+      padding: 0.4em 0.75em;
+      border: 1px solid #888;
+      border-radius: 4px;
+    }
+}
 
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: #34a961;
+  width: 1.2em;
+  height: 1.2em;
+}
 
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #00cc5c;
+  outline-offset: 1px;
 }
 
 button[type="submit"] {
