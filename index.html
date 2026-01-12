@@ -16,11 +16,13 @@
       <!-- Checkbox hack for CSS-only hamburger menu -->
       <input type="checkbox" id="menu-toggle" />
       <label for="menu-toggle">☰</label>
-      <nav>
+       <!-- Small JS event handler that closes the menu -->
+      <nav onclick="document.querySelector('#menu-toggle').checked = false">
         <a href="#start">Start</a>
         <a href="#about">About Us</a>
         <a href="#destinations">Destinations</a>
         <a href="#more">More</a>
+        <a href="#contact-us">Contact us</a>
       </nav>
     </header>
     <main>
@@ -28,6 +30,7 @@
       Several articles but only show one at the time
       (no page reload using css + hash links)
     -->
+     
       <article id="start">
         <img
           class="hero"
@@ -113,6 +116,45 @@
       </article>
       <article id="activities">
         <img src="images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg" alt="">
+
+      </article>
+      <article id="contact-us">
+        <h1>Contact Us</h1>
+        <form action="" >
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" placeholder="Write your email" required>
+          
+          <label for="firstName">First name:</label>
+          <input type="text" name="firstName" id="firstName" required>
+        
+          <label for="lastName">Last name:</label>
+          <input type="lastName" name="lastName" id="lastName" required>
+
+          <label for="">Subject:
+            <select name="" id="">
+              <Option>Question</Option>
+              <option value="">Opinion</option>
+              <option value="">Suggestion for improvment</option>
+            </select>
+          </label>
+          <br>
+          <label for="question">Your question/opinion:</label>
+          <textarea name="question" id="question" required minlength="5"></textarea>
+          <br>
+          <section class="radio-button-group">Is it alright if we phone you?
+          <label for="">
+            <input type="radio" name="phoneOk" value="yes">Yes
+          </label>
+          <label for="">
+            <input type="radio" name="phoneOk" value="no">No
+          </label>
+          </section>
+          
+          <label for="">
+            <input type="checkbox" checked>Subscribe to our news
+          </label>
+          <button type="submit">Send</button>
+        </form>
 
       </article>
     </main>
