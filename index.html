@@ -16,7 +16,7 @@
       <!-- Checkbox hack for CSS-only hamburger menu -->
       <input type="checkbox" id="menu-toggle" />
       <label for="menu-toggle">☰</label>
-       <!-- Small JS event handler that closes the menu -->
+      <!-- Small JS event handler that closes the menu -->
       <nav onclick="document.querySelector('#menu-toggle').checked = false">
         <a href="#start">Start</a>
         <a href="#about">About Us</a>
@@ -30,7 +30,7 @@
       Several articles but only show one at the time
       (no page reload using css + hash links)
     -->
-     
+
       <article id="start">
         <img
           class="hero"
@@ -81,33 +81,52 @@
       </article>
 
       <article id="aurora">
-        <img class="hero" src="images/johny-goerend-x3WQMj5QkEE-unsplash.jpg" alt="An amazing night on the bridge to Reine on Lofoten islands">
-          <h1>About Aurora-9</h1>
-          <p class="lorem11"></p>
+        <img
+          class="hero"
+          src="images/johny-goerend-x3WQMj5QkEE-unsplash.jpg"
+          alt="An amazing night on the bridge to Reine on Lofoten islands"
+        />
+        <h1>About Aurora-9</h1>
+        <p class="lorem11"></p>
       </article>
-        <article id="vireliaPrime">
-          <img class="hero" src="images/parker-hilton-vFzZ1_LPttk-unsplash.jpg" alt="A moon over a forest">
-          <h1>Virelia Prime</h1>
-          <p class="lorem12"></p>
+      <article id="vireliaPrime">
+        <img
+          class="hero"
+          src="images/parker-hilton-vFzZ1_LPttk-unsplash.jpg"
+          alt="A moon over a forest"
+        />
+        <h1>Virelia Prime</h1>
+        <p class="lorem12"></p>
+      </article>
+      <article id="helixExpanse">
+        <img
+          class="hero"
+          src="images/nasa-hubble-space-telescope-DG3dHwHFYtQ-unsplash.jpg"
+          alt="A univers look"
+        />
+        <h1>Helix Expanse</h1>
+        <p class="lorem13"></p>
+      </article>
+      <article id="OrionGate">
+        <img
+          class="hero"
+          src="images/nasa-hubble-space-telescope-AiiVVzYuRyk-unsplash.jpg"
+          alt=""
+        />
+        <h1>Orion Gate</h1>
+        <p class="lorem14"></p>
+      </article>
 
-        </article>
-        <article id="helixExpanse">
-          <img class="hero" src="images/nasa-hubble-space-telescope-DG3dHwHFYtQ-unsplash.jpg" alt="A univers look">
-          <h1>Helix Expanse</h1>
-          <p class="lorem13"></p>
-        </article>
-        <article id="OrionGate">
-          <img class="hero" src="images/nasa-hubble-space-telescope-AiiVVzYuRyk-unsplash.jpg" alt="">
-          <h1>Orion Gate</h1>
-          <p class="lorem14"></p>
-        </article>
+      <article id="solarisRift">
+        <img
+          class="hero"
+          src="images/javier-miranda-kBU5APay4T0-unsplash.jpg"
+          alt="A planet with two suns"
+        />
+        <h1>Solaris Rift</h1>
+        <p class="lorem15"></p>
+      </article>
 
-        <article id="solarisRift">
-          <img class="hero" src="images/javier-miranda-kBU5APay4T0-unsplash.jpg" alt="A planet with two suns">
-          <h1>Solaris Rift</h1>
-          <p class="lorem15"></p>
-        </article>
-      
       <article id="more">
         <img class="hero" src="images/vmpxr.jpeg" alt="universe" />
         <h1>Why to choose us:</h1>
@@ -115,47 +134,58 @@
         <a href="#activities">Activities</a>
       </article>
       <article id="activities">
-        <img src="images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg" alt="">
-
+        <img src="images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg" alt="" />
       </article>
       <article id="contact-us">
         <h1>Contact Us</h1>
-        <form action="" >
+        <form name="contactForm">
           <label for="email">E-mail:</label>
-          <input type="email" name="email" id="email" placeholder="Write your email" required>
-          
-          <label for="firstName">First name:</label>
-          <input type="text" name="firstName" id="firstName" required>
-        
-          <label for="lastName">Last name:</label>
-          <input type="lastName" name="lastName" id="lastName" required>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Write your email"
+            required
+          />
 
-          <label for="">Subject:
+          <label for="firstName">First name:</label>
+          <input type="text" name="firstName" id="firstName" required />
+
+          <label for="lastName">Last name:</label>
+          <input type="lastName" name="lastName" id="lastName" required />
+
+          <label for=""
+            >Subject:
             <select name="" id="">
-              <Option>Question</Option>
+              <option>Question</option>
               <option value="">Opinion</option>
               <option value="">Suggestion for improvment</option>
             </select>
           </label>
-          <br>
+          <br />
           <label for="question">Your question/opinion:</label>
-          <textarea name="question" id="question" required minlength="5"></textarea>
-          <br>
-          <section class="radio-button-group">Is it alright if we phone you?
-          <label for="">
-            <input type="radio" name="phoneOk" value="yes">Yes
-          </label>
-          <label for="">
-            <input type="radio" name="phoneOk" value="no">No
-          </label>
+          <textarea
+            name="question"
+            id="question"
+            required
+            minlength="5"
+          ></textarea>
+          <br />
+          <section class="radio-button-group">
+            Is it alright if we phone you?
+            <label for="">
+              <input type="radio" name="phoneOk" value="yes" />Yes
+            </label>
+            <label for="">
+              <input type="radio" name="phoneOk" value="no" />No
+            </label>
           </section>
-          
+
           <label for="">
-            <input type="checkbox" checked>Subscribe to our news
+            <input type="checkbox" name="sub" checked />Subscribe to our news
           </label>
           <button type="submit">Send</button>
         </form>
-
       </article>
     </main>
     <footer>
@@ -186,5 +216,7 @@
         </p>
       </section>
     </footer>
+
+    <script type="module" src="JavaScript/contactFormCollector.js"></script>
   </body>
 </html>
